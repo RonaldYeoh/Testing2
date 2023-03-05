@@ -3,6 +3,7 @@ import java.awt.*;
 import java.awt.event.*;
 
 public class Q1 extends JFrame{
+    private JPanel panel = new JPanel();
     private JPanel txtFieldPanel = new JPanel(new GridLayout(3,2));
     private JPanel txtFieldPanel = new JPanel(new GridLayout(3,2));
     private JPanel btnPanel = new JPanel(new FlowLayout());
